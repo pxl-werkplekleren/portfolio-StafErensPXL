@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@keyframes fadeIn {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: #222831;
+    margin: 0;
+
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 14rem;
+    margin-top: 30rem;
+    font-family: "Roboto", sans-serif;
+    
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+    color: #EEEEEE;
+    
+    text-shadow: 0.5rem 0.5rem black;
+    margin-bottom: 0;
+}
+
+h2{
+    animation: fadeIn 3s ease-in forwards;
+    color: hsl(0, 0%, 80%);
+    font-family: "Roboto", sans-serif;
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+p{
+    color: hsl(0, 0%, 80%);
+    font-size: 2rem;
+    font-family: "Lora", serif;
+    
+    margin-top: 1rem;
+    background-color: #393E46;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.nameS{
+    
+}
+.name{
+    color: #00ADB5;
+}
+
+header{
+    margin: 0rem;
+    background-color: #222831;
+    text-align: center;
+    height: 70rem;
+
+}
+h3{
+    font-size: 7rem;
+    font-family: "Roboto";
+    color: #EEEEEE;
+    margin: 10rem;
+    margin-bottom: 1rem;
+}
+
+table{
+    font-size: 2rem;
+    font-family: "Lora";
+    
+    padding: 2rem;
+
+    color: hsl(0, 0%, 80%);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td{
+        border: 1px solid;
+    border-color: black;
+    
+}
+
+.log, .ontwik{
+    margin: 10rem;
+    background-color: #393E46;
+   
+    margin-top: 5rem;
+}
+th, td{
+    padding: 1rem;
+}
+
+.ontwik{
+    margin: 10rem;
+    background-color: #393E46;
+    border-radius: 1rem;
+    
+}
+
+h4{
+    color: hsl(0, 0%, 100%);
+    font-family: "Lora";
+    margin: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.ontwik2{
+        
+    background-color: #000000;
+    border-radius: 1rem;
+    margin: 2rem;
+    
+    
+}
+
+.opd{
+    color: #EEEEEE;
+    font-family: "Roboto";
+
+}
+.ontwik2 p{
+    background-color: none;
+}
+
+.ontwik3{
+    margin: 10rem;
+    background-color: #000000;
+    border-radius: 1rem;
+    
+}
